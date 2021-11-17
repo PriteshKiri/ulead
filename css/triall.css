@@ -158,6 +158,7 @@ body {
 @media screen and (max-width: 576px) {
   .progress-container {
     padding-top: 0px !important;
+    padding-bottom: 0px;
   }
   .progress-level-container {
     background-color: white;
@@ -174,6 +175,10 @@ body {
     align-items: center;
   }
 
+  .progress-level-container svg .svg {
+    width: 50px !important;
+    height: 50px !important;
+  }
   .progress-level-container .content {
     margin-top: 0px;
     padding-top: 0px;
@@ -193,6 +198,10 @@ body {
   .progress-level-container .progress-header {
     font-size: 35px;
     padding: 0px 20px;
+  }
+
+  .progress-level-container #progress-journey-header {
+    margin-top: 0px !important;
   }
 }
 
@@ -498,6 +507,9 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  #form-section {
+    padding-top: 0px !important;
+  }
   #form-section .hubspot-form {
     padding: 20px 0px;
   }
@@ -785,8 +797,8 @@ body {
   }
 
   #become-a-coach-apply-page .community-program-why-unschool-item img {
-    width: 32px;
-    height: 32px;
+    width: 70px;
+    height: 70px;
     margin-right: 14px;
   }
 
@@ -812,10 +824,6 @@ body {
     color: rgba(36, 39, 44, 0.8);
     margin-bottom: 26px;
   }
-}
-
-#progress-journey-header {
-  margin-top: 70px;
 }
 
 #progress-journey-header .section-pill-header-desktop {
@@ -1034,8 +1042,8 @@ body {
   }
 
   .community-program-why-unschool-item img {
-    width: 70px !important;
-    height: 70px !important;
+    width: 70px;
+    height: 70px;
     margin-bottom: 16px;
     display: flex;
     justify-content: center;
@@ -1072,6 +1080,27 @@ body {
     margin: 0px;
     padding: 10px;
   }
+
+  #community-program-why-unschool .community-program-why-unschool-item img {
+    width: 45px;
+    height: 45px;
+  }
+
+  #community-program-why-unschool .community-program-why-unschool-item h4 {
+    font-family: Poppins, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px !important;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    color: #24272c;
+    margin-bottom: 6px;
+    padding-left: 20px;
+  }
+  #community-program-why-unschool .community-program-why-unschool-item p {
+    margin-bottom: 5px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1079,7 +1108,7 @@ body {
     padding-bottom: 0px !important;
   }
   .why-ulead-section {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 0px;
   }
   #join-us-why-heading .section-pill-header-desktop {
@@ -1088,6 +1117,7 @@ body {
     font-size: 35px;
     margin-bottom: 20px;
     padding: 20px;
+    padding-bottom: 0px;
   }
 }
 #community-progress-images {
@@ -1358,6 +1388,7 @@ body {
   .about-yi-yl-section > h2 {
     font-size: 35px;
     margin-top: 10px;
+    padding-bottom: 0px;
   }
 }
 .about-yi-yl-section .container {
@@ -1526,10 +1557,12 @@ body {
 
 .faq-section h1 {
   color: black;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: 400;
   text-align: center;
   margin-top: 50px;
+  color: rgb(56, 56, 56);
+  font-family: BebasNeue, Impact, cursive;
 }
 
 .faq-section h1 a {
@@ -1628,6 +1661,7 @@ body {
     background: #ffffff;
     font-family: "Open Sans", Arial, Helvetica, Sans-serif, Verdana, Tahoma;
     padding: 40px 20px;
+    padding-top: 0px;
   }
 
   .faq-section .accordion .link {
@@ -1638,6 +1672,7 @@ body {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-size: 30px;
   }
 }
 /* 
@@ -1673,7 +1708,7 @@ FAQ section end css */
   .testimonial-section > h2 {
     font-size: 40px;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 0px;
   }
 }
 
