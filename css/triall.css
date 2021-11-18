@@ -117,6 +117,10 @@ body {
     padding: 10px;
   }
 
+  .progress-levels::-webkit-scrollbar {
+    display: none;
+  }
+
   .progress-level-container .content span {
     text-align: left;
     font-size: 12px;
