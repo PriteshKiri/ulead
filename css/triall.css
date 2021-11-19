@@ -114,7 +114,7 @@ body {
     flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    height: 300px;
+    height: 240px;
     width: 500px;
     justify-content: flex-start;
     align-items: center;
@@ -150,6 +150,10 @@ body {
 
   .progress-levels #progress-last-card {
     margin-right: 110px;
+  }
+
+  .progress-container .progress-header {
+    margin-bottom: 0px;
   }
 }
 
