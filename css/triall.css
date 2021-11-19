@@ -105,6 +105,10 @@ body {
     align-items: center;
   }
 
+  .progress-container .progress-levels .progress-level-container .svg {
+    margin-right: 0px;
+  }
+
   .progress-levels {
     display: flex;
     flex-wrap: nowrap;
