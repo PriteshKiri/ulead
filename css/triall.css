@@ -362,17 +362,17 @@ body {
 
 @media screen and (max-width: 576px) {
   .header-section .main-navbar-desktop {
-    padding-top: 10px;
+    padding-top: 25px;
   }
 
   .header-section .main-navbar-desktop .nav-lhs img {
-    width: 150px !important;
-    height: 60px !important;
+    width: 120px !important;
+    height: 50px !important;
   }
 
   .header-section .header-main-text {
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 20px;
   }
 
   .header-section .header-main-text h1 {
@@ -1763,4 +1763,4 @@ figure.snip1192 .author h5 span {
   color: black;
 }
 
-/* testimonial section endd */
+/* testimonial section end */
